@@ -1,9 +1,13 @@
-.container {
-  margin: 20px auto;
-  width: 80%;
-  padding: 10px;
+div.container {
+    height: 10em;
+    position: relative 
 }
-
-h1 {
-    text-align:center;
+div.container p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
